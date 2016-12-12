@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto';
+    background-color: #F5F5F5;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+h1, h2, h3 {
+    margin: 12px 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.0em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 0.9em;
+    font-weight: 500;
+    text-align:left;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.main-container {
+    max-width:960px;
+    margin:24px auto;
+    padding:0;
+    border:solid 1px #EFEFEF;
+    background-color: #FFF;
+}
+
+.sidebar img.fit-to-container {
+    width:100%;
+}
+
+.profile {
+    background-color: #35879A;
+    position:relative;
+    padding:24px;
+    text-align:center;
+    color:#FFF;
+}
+
+.profile .avatar {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    background-color: #42A8C0;
+    padding: 24px;
+}
+
+.contact-info div {
+    margin-bottom:12px;
+}
+
+.contact-info .contact-points {
+    overflow:hidden;
+    margin: 0 auto;
+}
+
+.contact-info .contact-points a {
+    font-size:1.2em;
+    display:block;
+    float:left;
+    width:25%;
+    text-align:center;
+}
