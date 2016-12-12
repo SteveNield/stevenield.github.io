@@ -5,7 +5,6 @@ body {
 
 a, a:visited, a:hover {
     text-decoration: none;
-    color: #FFF;
 }
 
 h1, h2, h3 {
@@ -26,7 +25,7 @@ h2 {
 h3 {
     font-size: 0.9em;
     font-weight: 500;
-    text-align:left;
+    text-align:center;
 }
 
 .circle {
@@ -41,6 +40,10 @@ h3 {
     background-color: #FFF;
 }
 
+.sidebar {
+    color: #FFF;
+}
+
 .sidebar img.fit-to-container {
     width:100%;
 }
@@ -50,7 +53,6 @@ h3 {
     position:relative;
     padding:24px;
     text-align:center;
-    color:#FFF;
 }
 
 .profile .avatar {
@@ -61,6 +63,7 @@ h3 {
 .contact-info {
     background-color: #42A8C0;
     padding: 24px;
+    min-height: 100%;
 }
 
 .contact-info div {
@@ -72,10 +75,67 @@ h3 {
     margin: 0 auto;
 }
 
+.contact-info .contact-points a,
+.contact-info .contact-points a:visited,
+.contact-info .contact-points a:hover {
+    color: #FFF;
+}
+
 .contact-info .contact-points a {
     font-size:1.2em;
     display:block;
     float:left;
     width:25%;
     text-align:center;
+}
+
+.article-container {
+    padding:24px 24px 24px 48px;
+}
+
+.article-container a,
+.article-container a:hover,
+.article-container a:visited {
+    color: #2D7788;
+}
+
+.article-container a:hover {
+    text-decoration: underline;
+}
+
+.article-container .article {
+    overflow:hidden;
+}
+
+.article-container .article > div {
+    margin: 6px 0;
+}
+
+.article-container .title {
+    color: #2D7788;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.article-container .title span {
+    margin-right: 12px;
+}
+
+.article-container .date {
+    font-size: 0.9em;
+    color: #3F4650;
+}
+
+.article-container .content {
+    color: #545E6C;
+    font-size: 1.0em;
+}
+
+.article-container .tags {
+    float:left;
+    color: #2D7788;
+}
+
+.article-container .read-more {
+    float:right;
 }
