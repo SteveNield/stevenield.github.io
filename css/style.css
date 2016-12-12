@@ -32,10 +32,13 @@ h3 {
     border-radius: 50%;
 }
 
-.main-container {
+.inner-container {
     max-width:960px;
     margin:24px auto;
     padding:0;
+}
+
+.main-container {
     border:solid 1px #EFEFEF;
     background-color: #FFF;
 }
@@ -138,4 +141,13 @@ h3 {
 
 .article-container .read-more {
     float:right;
+}
+
+.footer {
+    color: #545E6C;
+    font-size: 0.9em;
+}
+
+.footer .disclaimer {
+    margin:0 0 24px 12px;
 }
