@@ -47,6 +47,7 @@ h3 {
     border:solid 1px #EFEFEF;
     background-color: $color-contact;
     overflow:hidden;
+    min-width: 340px;
 }
 
 @media screen and (max-width: $mobile-threshold){
