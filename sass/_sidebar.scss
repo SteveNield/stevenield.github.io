@@ -1,0 +1,49 @@
+.sidebar {
+    color: #FFF;
+    height:100%;
+
+    img.fit-to-container {
+        width:100%;
+    }
+}
+
+.profile {
+    background-color: #35879A;
+    position:relative;
+    padding:24px;
+    text-align:center;
+    
+    .avatar {
+        width: 100px;
+        margin: 0 auto;
+    }
+}
+
+.contact-info {
+    background-color: #42A8C0;
+    padding: 24px;
+    min-height: 100%;
+    
+    div {
+        margin-bottom:12px;
+    }
+    
+    .contact-points {
+        overflow:hidden;
+        margin: 0 auto;
+    
+        a,
+        a:visited,
+        a:hover {
+            color: #FFF;
+        }
+
+        a {
+            font-size:1.2em;
+            display:block;
+            float:left;
+            width:25%;
+            text-align:center;
+        }
+    }
+}

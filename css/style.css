@@ -1,153 +1,110 @@
-body {
-    font-family: 'Roboto';
-    background-color: #F5F5F5;
-}
-
-a, a:visited, a:hover {
-    text-decoration: none;
-}
-
-h1, h2, h3 {
-    margin: 12px 0;
-    padding: 0;
-}
-
-h1 {
-    font-size: 32px;
-    font-weight: 900;
-}
-
-h2 {
-    font-size: 1.0em;
-    font-weight: 500;
-}
-
-h3 {
-    font-size: 0.9em;
-    font-weight: 500;
-    text-align:center;
-}
-
-.circle {
-    border-radius: 50%;
-}
-
-.inner-container {
-    max-width:960px;
-    margin:24px auto;
-    padding:0;
-}
-
-.main-container {
-    border:solid 1px #EFEFEF;
-    background-color: #FFF;
-}
-
 .sidebar {
-    color: #FFF;
-}
-
-.sidebar img.fit-to-container {
-    width:100%;
-}
+  color: #FFF;
+  height: 100%; }
+  .sidebar img.fit-to-container {
+    width: 100%; }
 
 .profile {
-    background-color: #35879A;
-    position:relative;
-    padding:24px;
-    text-align:center;
-}
-
-.profile .avatar {
+  background-color: #35879A;
+  position: relative;
+  padding: 24px;
+  text-align: center; }
+  .profile .avatar {
     width: 100px;
-    margin: 0 auto;
-}
+    margin: 0 auto; }
 
 .contact-info {
-    background-color: #42A8C0;
-    padding: 24px;
-    min-height: 100%;
-}
-
-.contact-info div {
-    margin-bottom:12px;
-}
-
-.contact-info .contact-points {
-    overflow:hidden;
-    margin: 0 auto;
-}
-
-.contact-info .contact-points a,
-.contact-info .contact-points a:visited,
-.contact-info .contact-points a:hover {
-    color: #FFF;
-}
-
-.contact-info .contact-points a {
-    font-size:1.2em;
-    display:block;
-    float:left;
-    width:25%;
-    text-align:center;
-}
+  background-color: #42A8C0;
+  padding: 24px;
+  min-height: 100%; }
+  .contact-info div {
+    margin-bottom: 12px; }
+  .contact-info .contact-points {
+    overflow: hidden;
+    margin: 0 auto; }
+    .contact-info .contact-points a,
+    .contact-info .contact-points a:visited,
+    .contact-info .contact-points a:hover {
+      color: #FFF; }
+    .contact-info .contact-points a {
+      font-size: 1.2em;
+      display: block;
+      float: left;
+      width: 25%;
+      text-align: center; }
 
 .article-container {
-    padding:24px 24px 24px 48px;
-}
-
-.article-container a,
-.article-container a:hover,
-.article-container a:visited {
-    color: #2D7788;
-}
-
-.article-container a:hover {
-    text-decoration: underline;
-}
-
-.article-container .article {
-    overflow:hidden;
-}
-
-.article-container .article > div {
-    margin: 6px 0;
-}
-
-.article-container .title {
-    color: #2D7788;
-    font-size: 1.4em;
-    font-weight: 600;
-}
-
-.article-container .title span {
-    margin-right: 12px;
-}
-
-.article-container .date {
+  padding: 24px 24px 24px 48px; }
+  .article-container a,
+  .article-container a:hover,
+  .article-container a:visited {
+    color: #2D7788; }
+  .article-container a:hover {
+    text-decoration: underline; }
+  .article-container .article {
+    overflow: hidden; }
+    .article-container .article .title {
+      color: #2D7788;
+      font-size: 1.4em;
+      font-weight: 600; }
+      .article-container .article .title span {
+        margin-right: 12px; }
+  .article-container .article > div {
+    margin: 6px 0; }
+  .article-container .date {
     font-size: 0.9em;
-    color: #3F4650;
-}
+    color: #3F4650; }
+  .article-container .content {
+    font-size: 1em;
+    color: #545E6C; }
+  .article-container .tags {
+    float: left;
+    color: #2D7788; }
+  .article-container .read-more {
+    float: right; }
 
-.article-container .content {
-    color: #545E6C;
-    font-size: 1.0em;
-}
+body {
+  font-family: 'Roboto';
+  background-color: #F5F5F5; }
 
-.article-container .tags {
-    float:left;
-    color: #2D7788;
-}
+a, a:visited, a:hover {
+  text-decoration: none; }
 
-.article-container .read-more {
-    float:right;
-}
+h1, h2, h3 {
+  margin: 12px 0;
+  padding: 0; }
+
+h1 {
+  font-size: 2.4em;
+  font-weight: 900; }
+
+h2 {
+  font-size: 1em;
+  font-weight: 500; }
+
+h3 {
+  font-size: 0.9em;
+  font-weight: 500;
+  text-align: center; }
+
+.circle {
+  border-radius: 50%; }
+
+.inner-container {
+  max-width: 960px;
+  margin: 24px auto;
+  padding: 0; }
+
+.main-container {
+  border: solid 1px #EFEFEF;
+  background-color: #FFF;
+  overflow: hidden; }
 
 .footer {
-    color: #545E6C;
-    font-size: 0.9em;
-}
+  color: #545E6C;
+  font-size: 0.9em; }
 
 .footer .disclaimer {
-    margin:0 0 24px 12px;
-}
+  margin: 0 0 24px 12px; }
+
+/*# sourceMappingURL=style.css.map */

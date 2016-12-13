@@ -1,0 +1,54 @@
+$color-blue: #2D7788;
+$color-light-grey: #3F4650;
+$color-dark-grey: #545E6C;
+
+.article-container {
+    padding:24px 24px 24px 48px;
+    
+    a,
+    a:hover,
+    a:visited {
+        color: $color-blue;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    .article {
+        overflow:hidden;
+        
+        .title {
+            color: $color-blue;
+            font-size: $size-panel-title;
+            font-weight: 600;
+            
+            span {
+                margin-right: 12px;
+            }
+        }
+    }
+    
+    .article > div {
+        margin: 6px 0;
+    }
+    
+    .date {
+        font-size: $size-h3;
+        color: $color-light-grey;
+    }
+    
+    .content {
+        font-size: $size-h2;
+        color: $color-dark-grey;
+    }
+    
+    .tags {
+        float:left;
+        color: $color-blue;
+    }
+    
+    .read-more {
+        float:right;
+    }
+}
