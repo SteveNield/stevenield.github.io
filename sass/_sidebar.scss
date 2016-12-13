@@ -1,6 +1,9 @@
 .sidebar {
+    position: relative;
+    padding-left: 0;
     color: #FFF;
-    height:100%;
+    float: right;
+    overflow: hidden;
 
     img.fit-to-container {
         width:100%;
@@ -12,7 +15,7 @@
     position:relative;
     padding:24px;
     text-align:center;
-    
+
     .avatar {
         width: 140px;
         margin: 0 auto;
@@ -20,18 +23,23 @@
 }
 
 .contact-info {
-    background-color: #42A8C0;
     padding: 24px;
-    min-height: 100%;
-    
+    position:relative;
+
+    @media screen and (max-width: $mobile-threshold){
+      .logo {
+        display:none;
+      }
+    }
+
     div {
         margin-bottom:12px;
     }
-    
+
     .contact-points {
         overflow:hidden;
         margin: 0 auto;
-    
+
         a,
         a:visited,
         a:hover {
@@ -39,7 +47,7 @@
         }
 
         a {
-            font-size:1.2em;
+            font-size:2.0em;
             display:block;
             float:left;
             width:25%;

@@ -37,22 +37,29 @@ h3 {
 }
 
 .inner-container {
-    width:1200px;
-    margin:24px auto;
+    max-width:1200px;
     padding:0;
+    overflow: hidden;
+    margin:24px auto;
 }
 
 .main-container {
     border:solid 1px #EFEFEF;
-    background-color: #FFF;
+    background-color: $color-contact;
     overflow:hidden;
+}
+
+@media screen and (max-width: $mobile-threshold){
+  .main-container {
+    margin: 0;
+  }
 }
 
 .footer {
     color: #545E6C;
     font-size: 0.9em;
-}
 
-.footer .disclaimer {
-    margin:0 0 24px 12px;
+    .disclaimer {
+      margin-left: 24px;
+    }
 }
