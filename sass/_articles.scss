@@ -44,11 +44,13 @@ $color-dark-grey: #545E6C;
     }
     
     .tags {
+        font-size: $size-h3;
         float:left;
         color: $color-blue;
     }
     
     .read-more {
+        font-size: $size-h3;
         float:right;
     }
 }
