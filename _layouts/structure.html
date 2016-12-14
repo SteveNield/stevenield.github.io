@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    <main class="main-container inner-container container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 sidebar">
+          {% include sidebar.html %}
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 article-container">
+          {{ content }}
+        </div>
+      </div>
+    </main>
+    <div class="footer inner-container">
+        <div class="disclaimer">&copy; Winter Softworks Limited 2016</div>
+    </div>
+  </body>
+</html>

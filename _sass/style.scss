@@ -44,8 +44,8 @@ h3 {
 }
 
 .main-container {
-    border:solid 1px #EFEFEF;
-    background-color: $color-contact;
+    border:solid 1px $color-border;
+    background-color: $color-background-contact;
     overflow:hidden;
     min-width: 340px;
 }
