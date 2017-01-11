@@ -11,16 +11,6 @@
     }
   }
 
-  a,
-  a:hover,
-  a:visited {
-    color: $color-blue;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
   .date {
       font-size: $size-h3;
       color: $color-light-grey;

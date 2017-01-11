@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'sidebar';
 @import 'post-list';
+@import 'post';
 
 body {
     font-family: 'Roboto';
@@ -20,6 +21,10 @@ h1 {
     font-size: $size-h1;
     font-weight: 900;
     color: $color-blue;
+
+    span {
+      margin-right: 12px;
+    }
 }
 
 h2 {
@@ -38,6 +43,16 @@ p {
   padding: 0;
   font-size: $size-h3;
   color: $color-dark-grey;
+}
+
+a,
+a:hover,
+a:visited {
+  color: $color-blue;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .circle {

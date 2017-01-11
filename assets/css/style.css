@@ -50,12 +50,6 @@
     font-weight: 600; }
     .post-list-item .title span {
       margin-right: 12px; }
-  .post-list-item a,
-  .post-list-item a:hover,
-  .post-list-item a:visited {
-    color: #2D7788; }
-  .post-list-item a:hover {
-    text-decoration: underline; }
   .post-list-item .date {
     font-size: 1.1em;
     color: #3F4650; }
@@ -66,6 +60,10 @@
   .post-list-item .read-more {
     font-size: 1.1em;
     float: right; }
+
+.post a {
+  display: block;
+  float: right; }
 
 body {
   font-family: 'Roboto';
@@ -82,6 +80,8 @@ h1 {
   font-size: 2em;
   font-weight: 900;
   color: #2D7788; }
+  h1 span {
+    margin-right: 12px; }
 
 h2 {
   font-size: 1.3em;
@@ -97,6 +97,14 @@ p {
   padding: 0;
   font-size: 1.1em;
   color: #545E6C; }
+
+a,
+a:hover,
+a:visited {
+  color: #2D7788; }
+
+a:hover {
+  text-decoration: underline; }
 
 .circle {
   border-radius: 50%; }

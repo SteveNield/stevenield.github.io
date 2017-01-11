@@ -8,16 +8,11 @@ layout: default
           <span class="fa fa-newspaper-o"></span>{{ post.title }}
       </div>
       <div class="date">
-          Posted: {{ post.date }}
+          Posted: {{ post.date | date: "%d / %m / %Y" }}
       </div>
       <p>
-          {{ post.summary }}
+          {{ post.excerpt }}
       </p>
-      <div class="tags">tags:
-        {% for category in post.categories %}
-          <a href="#nodejs">{{ category }}</a>
-        {% endfor %}
-      </div>
       <div class="read-more"><a href="{{ post.url }}">Read Full Article</a></div>
   </div>
 {% endfor %}
