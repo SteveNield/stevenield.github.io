@@ -1,7 +1,8 @@
-title: "Software Development Consultant | Winter Softworks | Now on Jekyll!"
+title: "Software Development Consultant | Winter Softworks"
 h1: "Steve Nield"
 personal-description: "Full Stack Developer and Architect"
 status: "Currently consulting with a number of start-up projects, helping to move them from prototype to market."
+permalink: "/:title"
 
 # Build settings
 markdown: kramdown

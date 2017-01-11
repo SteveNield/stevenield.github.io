@@ -15,6 +15,10 @@
   .profile .avatar {
     width: 140px;
     margin: 0 auto; }
+  .profile .name {
+    margin-top: 12px;
+    font-size: 2em;
+    font-weight: 900; }
 
 .contact-info {
   padding: 24px;
@@ -38,39 +42,28 @@
       width: 25%;
       text-align: center; }
 
-@media screen and (max-width: 768px) {
-  padding-left: 24px; }
-.article-container {
-  padding: 24px 24px 24px 48px;
-  float: left;
-  background: #FFF; }
-  .article-container a,
-  .article-container a:hover,
-  .article-container a:visited {
+.post-list-item {
+  overflow: hidden; }
+  .post-list-item .title {
+    color: #2D7788;
+    font-size: 1.75em;
+    font-weight: 600; }
+    .post-list-item .title span {
+      margin-right: 12px; }
+  .post-list-item a,
+  .post-list-item a:hover,
+  .post-list-item a:visited {
     color: #2D7788; }
-  .article-container a:hover {
+  .post-list-item a:hover {
     text-decoration: underline; }
-  .article-container .article {
-    overflow: hidden; }
-    .article-container .article .title {
-      color: #2D7788;
-      font-size: 1.75em;
-      font-weight: 600; }
-      .article-container .article .title span {
-        margin-right: 12px; }
-  .article-container .article > div {
-    margin: 6px 0; }
-  .article-container .date {
+  .post-list-item .date {
     font-size: 1.1em;
     color: #3F4650; }
-  .article-container .content {
-    font-size: 1.3em;
-    color: #545E6C; }
-  .article-container .tags {
+  .post-list-item .tags {
     font-size: 1.1em;
     float: left;
     color: #2D7788; }
-  .article-container .read-more {
+  .post-list-item .read-more {
     font-size: 1.1em;
     float: right; }
 
@@ -86,8 +79,9 @@ h1, h2, h3 {
   padding: 0; }
 
 h1 {
-  font-size: 3em;
-  font-weight: 900; }
+  font-size: 2em;
+  font-weight: 900;
+  color: #2D7788; }
 
 h2 {
   font-size: 1.3em;
@@ -97,6 +91,12 @@ h3 {
   font-size: 1.1em;
   font-weight: 500;
   text-align: center; }
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.1em;
+  color: #545E6C; }
 
 .circle {
   border-radius: 50%; }
@@ -113,6 +113,15 @@ h3 {
   overflow: hidden;
   min-width: 340px; }
 
+.page-content {
+  padding: 24px 24px 24px 48px;
+  float: left;
+  background: #FFF; }
+
+@media screen and (max-width: 768px) {
+  .page-content {
+    padding-left: 24px;
+    min-width: 100%; } }
 @media screen and (max-width: 768px) {
   .main-container {
     margin: 0; } }

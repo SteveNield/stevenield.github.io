@@ -1,0 +1,39 @@
+.post-list-item {
+  overflow:hidden;
+
+  .title {
+    color: $color-blue;
+    font-size: $size-panel-title;
+    font-weight: 600;
+
+    span {
+      margin-right: 12px;
+    }
+  }
+
+  a,
+  a:hover,
+  a:visited {
+    color: $color-blue;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .date {
+      font-size: $size-h3;
+      color: $color-light-grey;
+  }
+
+  .tags {
+      font-size: $size-h3;
+      float:left;
+      color: $color-blue;
+  }
+
+  .read-more {
+      font-size: $size-h3;
+      float:right;
+  }
+}
