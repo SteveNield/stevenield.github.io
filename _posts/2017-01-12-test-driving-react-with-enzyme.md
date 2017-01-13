@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test Driving React with Enzyme - A Very Shallow Introduction
+title: Test Driving React with Enzyme - A Shallow Introduction
 excerpt_separator: <!--more-->
 date: 2017-01-11 09:58:00
 ---
@@ -10,7 +10,13 @@ Test frameworks like Mocha and Karma make testing your Javascript code trivial. 
 <!--more-->
 **Enzyme**
 
-Enzyme is a test framework library developed by Airbnb to make testing React components trivial so that your tests stay expressive.  It does this by providing a fluent API for traversing the DOM, simulating user interaction and making good expressive assertions.  It also supports different types of rendering so that you only render as much of the component as you need in order to perform your test.  For example, if you need to test for the presence of a value, you use the shallow render option.  If you need to test that your data has been loaded in the onComponentMount event handler, then use the mount render option.
+Enzyme is a test framework library developed by Airbnb to make testing React components trivial so that your tests stay expressive.  It does this by providing a fluent API for traversing the DOM, simulating user interaction and making good expressive assertions.  It also supports different types of rendering so that you only render as much of the component as you need in order to perform your test.  The three rendering options are:
+
+* *Shallow* - Renders the component without invoking the behaviour of any child components.  This allows the component to be unit tested without assumptions about the behaviour of dependencies.
+* *Mount* - Fully renders the component, which requires a DOM API.  The DOM API can be mocked using [jsdom](https://github.com/tmpvar/jsdom).  This allows tests to be run which assert behaviour relating to the component render lifecycle.  For example, data has been loaded in the componentDidMount handler.
+* *Static* - Renders the component as static HTML which is great for situations where you need to assert on the DOM structure but don't need to assert on component logic.
+
+In this article, we will be using shallow rendering only.
 
 Enzyme goes out of its way to ensure it is accessible, which is something I love.  Its syntax for rendering components is very similar to react-test-utils because it worked and there was no need to change it.  It uses jQuery-style selectors for DOM traversal because they make sense.  NPM and bower are full of integrations with your favourite assertion library and test framework so the learning curve is very smooth.
 
@@ -24,13 +30,10 @@ We’re going to create a React component which has 2 elements: a button and a c
 
 We’ll be using the following tools to create and run the tests:
 
-*NPM*: Package manager
-
-*Mocha*: Test framework
-
-*Chai*: Assertion library
-
-*Babel*: For pre-compiling our JSX prior to running the tests
+* *NPM*: Package manager
+* *Mocha*: Test framework
+* *Chai*: Assertion library
+* *Babel*: For pre-compiling our JSX prior to running the tests
 
 Check the Enzyme documentation to see a full list of compatible test libraries.
 
