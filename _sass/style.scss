@@ -39,10 +39,20 @@ h3 {
 }
 
 p {
-  margin: 0;
+  margin: 12px 0 12px 0;
   padding: 0;
   font-size: $size-h3;
   color: $color-dark-grey;
+}
+
+p img {
+  max-width: 60%;
+}
+
+@media screen and (max-width: $mobile-threshold){
+  p img {
+    max-width: 100%;
+  }
 }
 
 a,

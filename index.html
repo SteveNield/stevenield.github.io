@@ -5,7 +5,7 @@ layout: default
 {% for post in site.posts %}
   <div class="post-list-item">
       <div class="title">
-          <span class="fa fa-newspaper-o"></span>{{ post.title }}
+          <span class="fa fa-newspaper-o"></span><a href="{{ post.url }}">{{ post.title }}</a>
       </div>
       <div class="date">
           Posted: {{ post.date | date: "%d / %m / %Y" }}
