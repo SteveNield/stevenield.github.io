@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test Driving React with Enzyme - A Very Brief Introduction
+title: Test Driving React with Enzyme - A Very Shallow Introduction
 excerpt_separator: <!--more-->
 date: 2017-01-11 09:58:00
 ---
