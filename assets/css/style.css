@@ -61,7 +61,7 @@
     font-size: 1.1em;
     float: right; }
 
-.post a {
+.post .read-more a {
   display: block;
   float: right; }
 
