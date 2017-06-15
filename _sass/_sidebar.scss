@@ -1,9 +1,6 @@
 .sidebar {
-    position: relative;
     padding-left: 0;
     color: #FFF;
-    float: right;
-    overflow: hidden;
 
     img.fit-to-container {
         width:100%;
@@ -31,6 +28,7 @@
 .contact-info {
     padding: 24px;
     position:relative;
+    background-color: $color-background-contact;
 
     @media screen and (max-width: $mobile-threshold){
       .logo {

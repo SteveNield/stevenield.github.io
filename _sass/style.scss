@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'layout';
 @import 'sidebar';
 @import 'post-list';
 @import 'post';
@@ -70,39 +71,6 @@ a:hover {
 
 .circle {
     border-radius: 50%;
-}
-
-.inner-container {
-    max-width:1200px;
-    padding:0;
-    overflow: hidden;
-    margin:24px auto;
-}
-
-.main-container {
-    border:solid 1px $color-border;
-    background-color: $color-background-contact;
-    overflow:hidden;
-    min-width: 340px;
-}
-
-.page-content {
-    padding:24px 24px 24px 48px;
-    float:left;
-    background: #FFF;
-}
-
-@media screen and (max-width: $mobile-threshold){
-  .page-content {
-    padding-left: 24px;
-    min-width: 100%;
-  }
-}
-
-@media screen and (max-width: $mobile-threshold){
-  .main-container {
-    margin: 0;
-  }
 }
 
 .footer {

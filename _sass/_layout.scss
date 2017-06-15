@@ -1,0 +1,22 @@
+.main-container {
+  max-width:1200px;
+  margin: 24px auto;
+  overflow: hidden;
+  position: relative;
+  background-color: $color-background-contact;
+
+  .right-container-fixed {
+    width: 25%;
+    float: right;
+    overflow: hidden;
+  }
+
+  .flex-container-with-fixed-right-column {
+    margin-right: 25%;
+  }
+
+  .page-content > div {
+    padding: 24px;
+    background: #FFF;
+  }
+}

@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<div class="post-list">
 {% for post in site.posts %}
   <div class="post-list-item">
       <div class="title">
@@ -16,3 +17,4 @@ layout: default
       <div class="read-more"><a href="{{ post.url }}">Read Full Article</a></div>
   </div>
 {% endfor %}
+</div>

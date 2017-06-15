@@ -1,9 +1,22 @@
-.sidebar {
+.main-container {
+  max-width: 1200px;
+  margin: 24px auto;
+  overflow: hidden;
   position: relative;
+  background-color: #42A8C0; }
+  .main-container .right-container-fixed {
+    width: 25%;
+    float: right;
+    overflow: hidden; }
+  .main-container .flex-container-with-fixed-right-column {
+    margin-right: 25%; }
+  .main-container .page-content > div {
+    padding: 24px;
+    background: #FFF; }
+
+.sidebar {
   padding-left: 0;
-  color: #FFF;
-  float: right;
-  overflow: hidden; }
+  color: #FFF; }
   .sidebar img.fit-to-container {
     width: 100%; }
 
@@ -22,7 +35,8 @@
 
 .contact-info {
   padding: 24px;
-  position: relative; }
+  position: relative;
+  background-color: #42A8C0; }
   @media screen and (max-width: 768px) {
     .contact-info .logo {
       display: none; } }
@@ -42,22 +56,22 @@
       width: 25%;
       text-align: center; }
 
-.post-list-item {
+.post-list .post-list-item {
   overflow: hidden; }
-  .post-list-item .title {
+  .post-list .post-list-item .title {
     color: #2D7788;
     font-size: 1.75em;
     font-weight: 600; }
-    .post-list-item .title span {
+    .post-list .post-list-item .title span {
       margin-right: 12px; }
-  .post-list-item .date {
+  .post-list .post-list-item .date {
     font-size: 1.1em;
     color: #3F4650; }
-  .post-list-item .tags {
+  .post-list .post-list-item .tags {
     font-size: 1.1em;
     float: left;
     color: #2D7788; }
-  .post-list-item .read-more {
+  .post-list .post-list-item .read-more {
     font-size: 1.1em;
     float: right; }
 
@@ -117,30 +131,6 @@ a:hover {
 .circle {
   border-radius: 50%; }
 
-.inner-container {
-  max-width: 1200px;
-  padding: 0;
-  overflow: hidden;
-  margin: 24px auto; }
-
-.main-container {
-  border: solid 1px #EFEFEF;
-  background-color: #42A8C0;
-  overflow: hidden;
-  min-width: 340px; }
-
-.page-content {
-  padding: 24px 24px 24px 48px;
-  float: left;
-  background: #FFF; }
-
-@media screen and (max-width: 768px) {
-  .page-content {
-    padding-left: 24px;
-    min-width: 100%; } }
-@media screen and (max-width: 768px) {
-  .main-container {
-    margin: 0; } }
 .footer {
   color: #545E6C;
   font-size: 0.9em; }

@@ -1,29 +1,32 @@
-.post-list-item {
-  overflow:hidden;
+.post-list {
 
-  .title {
-    color: $color-blue;
-    font-size: $size-panel-title;
-    font-weight: 600;
+  .post-list-item {
+    overflow:hidden;
 
-    span {
-      margin-right: 12px;
-    }
-  }
-
-  .date {
-      font-size: $size-h3;
-      color: $color-light-grey;
-  }
-
-  .tags {
-      font-size: $size-h3;
-      float:left;
+    .title {
       color: $color-blue;
-  }
+      font-size: $size-panel-title;
+      font-weight: 600;
 
-  .read-more {
-      font-size: $size-h3;
-      float:right;
+      span {
+        margin-right: 12px;
+      }
+    }
+
+    .date {
+        font-size: $size-h3;
+        color: $color-light-grey;
+    }
+
+    .tags {
+        font-size: $size-h3;
+        float:left;
+        color: $color-blue;
+    }
+
+    .read-more {
+        font-size: $size-h3;
+        float:right;
+    }
   }
 }
