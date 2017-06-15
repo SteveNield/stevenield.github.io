@@ -20,3 +20,17 @@
     background: #FFF;
   }
 }
+
+@media screen and (max-width: $mobile-threshold){
+  .main-container {
+    margin: 0;
+    padding: 0;
+  }
+  .right-container-fixed {
+    width: 100%!important;
+    float: none!important;
+  }
+  .flex-container-with-fixed-right-column {
+    margin-right: 0!important;
+  }
+}
