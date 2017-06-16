@@ -15,9 +15,9 @@ Having good justifications on-hand can be incredibly helpful in this scenario an
 
 **Easier to Plan**
 
-TDD is a very predictable way of writing software which means there are fewer unknowns in a project’s lifecycle.  This makes it much easier to plan resources and commit to delivery dates.  If we are only writing code in response to a failing test, then our application will be very lean making it easier to identify defects.  All behaviours of our application are described in tests so it is rare that the application fails if all tests pass.  If, however, this does happen then it simply means we are missing a test.  Once this has been identified, finding the missing test is usually simple.
+TDD is a very predictable way of writing software which means there are fewer unknowns in a project’s lifecycle.  This makes it much easier to plan resources and commit to delivery dates.  If we are only writing code in response to a failing test, then our application will be very lean making it easier to identify defects.  All behaviours of our application are described in tests so it is less likely that the application fails if all tests pass.  If, however, this does happen then it simply means we are missing a test.  Once this has been identified, finding the missing test is usually simple.
 
-Where there is no methodology in place, there is usually a period of disorganised bug-hunting which relies on logging and debugging to determine the root cause.  This can be unpredictable because there are be a large number of dependencies which could be contributing to the unexpected behaviour.  This process is incredibly difficult to plan.
+Where there is no methodology in place, there is usually a period of disorganised bug-hunting which relies on logging and debugging while running the application, to determine the root cause.  This can be unpredictable because there are a large number of dependencies which could be contributing to the unexpected behaviour.  This process is incredibly difficult to plan.
 
 During planning sessions, developers will be able to estimate the complexity of a potential change with a greater degree of confidence due to the predictable nature of TDD.
 
