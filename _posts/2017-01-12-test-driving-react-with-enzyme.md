@@ -3,6 +3,8 @@ layout: post
 title: Test Driving React with Enzyme - A Shallow Introduction
 excerpt_separator: <!--more-->
 date: 2017-01-11 09:58:00
+comments: true
+url: test-driving-react-with-enzyme
 ---
 
 Test frameworks like Mocha and Karma make testing your Javascript code trivial.  They provide expressive assertion patterns, make it easy to mock dependencies and they run anywhere which makes them great for CI.  Testing your React components, however, can be difficult because much of the functionality of your component happens during the render lifecycle.  This means that in order to simulate actions and make assertions on your component’s behaviour, you must write (potentially a lot of) DOM interrogation code.  This can lead to large tests which in turn reduces the expressiveness of those tests, and their ability to clearly describe the behaviour of your application.  Enzyme is the solution.

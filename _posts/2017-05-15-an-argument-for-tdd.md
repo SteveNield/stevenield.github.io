@@ -3,6 +3,8 @@ layout: post
 title: An Argument for Test-Driven Development
 excerpt: Trying to introduce a new methodology to an organisation comprising technical and non-technical stakeholders can be difficult.  Having good justifications on-hand can be incredibly helpful and so here I’d like to provide four business justifications for TDD with which I have previously had success.
 date: 2017-05-15 11:38:00
+comments: true
+url: an-argument-for-tdd
 ---
 
 In my experience, developers who are learning a new methodology take a very similar journey.  Likely, they will begin the learning process open-minded but then quickly become sceptical as the questions and concerns start to build up.

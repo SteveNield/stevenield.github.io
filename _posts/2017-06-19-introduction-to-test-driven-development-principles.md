@@ -3,6 +3,8 @@ layout: post
 title: Basic Introduction to Test-Driven Development for JavaScript
 excerpt_separator: <!--more-->
 date: 2017-06-19 08:04:00
+comments: true
+url: introduction-to-test-driven-development-principles
 ---
 A great friend (an incredibly talented developer) and I were drinking some excellent whiskey recently, and we got to talking about junior developers starting on teams where TDD is well-established.  There is a huge amount written on the subject, there are multiple flavours and there are also a huge number of frameworks that support writing better tests.  This can be overwhelming when the fundamentals are quite simple, and the “attitude” can get lost in the deluge of information and opinions.  My friend suggested that it would be great to have an article he could point new people to, which would lay-out a very simple but very detailed test-driven example, using as few frameworks as possible.  This would help keep the TDD message clear.  Here I attempt to deliver a very basic example using Javascript.
 
