@@ -5,6 +5,7 @@ excerpt: Trying to introduce a new methodology to an organisation comprising tec
 date: 2017-05-15 11:38:00
 comments: true
 url: an-argument-for-tdd
+id: tddargument
 ---
 
 In my experience, developers who are learning a new methodology take a very similar journey.  Likely, they will begin the learning process open-minded but then quickly become sceptical as the questions and concerns start to build up.
