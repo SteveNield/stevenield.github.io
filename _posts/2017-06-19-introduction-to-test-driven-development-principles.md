@@ -41,12 +41,12 @@ We need to setup our environment.  With this example, the plan is to use as few 
 Setup your node environment with `npm init` and leave all options as default.  Now setup Mocha and Chai with `npm install --save-dev mocha chai`.  Change your package.json test command to the following so that it runs our Mocha tests.
 
 ```javascript
-{
-  "presets": ["react"]
+"scripts": {
+  "test": "mocha *-spec.js"
 }
 ```
 
-Our environment is now good to go.  To test this attempt to run Mocha by typing `npm test` and you should receive an error complaining that no test scripts were found.  This is good – because we haven’t written any tests yet.
+Our environment is now good to go.  To test this, attempt to run Mocha by typing `npm test` and you should receive an error complaining that no test scripts were found.  This is good – because we haven’t written any tests yet.
 
 **Step 2**
 
